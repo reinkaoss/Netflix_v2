@@ -2,7 +2,7 @@
    position: fixed;
    display: flex;
  list-style-type: none;
- background-image: url(gummo.jpeg); 
+ background-image: url(header.jpeg); 
 background-size: contain;
 object-fit: contain;
 height: 100px;
