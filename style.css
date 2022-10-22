@@ -87,7 +87,7 @@ a:hover {
 .row1_imgs,
 .row2_imgs {
   padding: 10px;
-  width: 100%;
+  width: 247px;
 }
 
 .row1_imgs:hover,
@@ -144,14 +144,7 @@ h1 {
   display: block;
 }
 
-.row1_posters {
-  padding: 20px;
-}
 
-img {
-  width: 269px;
-  height: 380px;
-}
 
 @media screen and (min-width: 601px) {
 
@@ -173,3 +166,4 @@ img {
     min-inline-size: fit-content;
   }
 }
+
