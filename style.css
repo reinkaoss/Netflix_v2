@@ -72,7 +72,6 @@ a:hover {
   height: 400px;
   max-width: 100%;
   margin-left: 10px;
-  height: auto;
 }
 
 .first_row {
@@ -89,7 +88,6 @@ a:hover {
 .row2_imgs {
   padding: 10px;
   width: 100%;
-  height: auto;
 }
 
 .row1_imgs:hover,
