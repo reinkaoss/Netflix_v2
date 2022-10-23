@@ -21,47 +21,47 @@
 
                 function myFunction() {
                     document.getElementById("ab").style.display = "none";
-                    document.getElementById("p").style.display = "block";
-                    document.getElementById("c").style.display = "block";
+                    document.getElementById("p").style.display = "flex";
+                    document.getElementById("c").style.display = "flex";
                     document.getElementById("p1").style.display = "none";
 
                 }
 
                 function myFunction1() {
                     document.getElementById("c").style.display = "none";
-                    document.getElementById("ab").style.display = "block";
+                    document.getElementById("ab").style.display = "flex";
                     document.getElementById("p").style.display = "none";
-                    document.getElementById("p1").style.display = "block";
+                    document.getElementById("p1").style.display = "flex";
                 }
 
                 function myFunction2() {
                     document.getElementById("p").style.display = "none";
-                    document.getElementById("ab").style.display = "block";
+                    document.getElementById("ab").style.display = "flex";
                     document.getElementById("p1").style.display = "none";
-                    document.getElementById("c").style.display = "block";
+                    document.getElementById("c").style.display = "flex";
                 }
             </script>
             <div class="header">
-            <header>
-            <nav>
-                <ul>
-                    <li><a href="#home">Home</a></li>
-                    <li><a href="#news">Categories</a></li>
-                    <li><a href="#about">About</a></li>
-                  </ul>
-            </nav>
-        </header>
-        </div>
-            
+                <header>
+                    <nav>
+                        <ul>
+                            <li><a href="#home">Home</a></li>
+                            <li><a href="#news">Categories</a></li>
+                            <li><a href="#about">About</a></li>
+                        </ul>
+                    </nav>
+                </header>
+            </div>
+<!-- 
             <! –– First row -->
-                <div class="first_row">
+                <!-- <div class="first_row">
                     <h1>Originals</h1>
                     <div class="row1_posters">
                         <img onclick="myFunction()" id="ab" class="row1_imgs" src="november.jpeg">
                         <p onclick="myFunction2()" id="p">In a Medieval Estonian village, a group of peasants use magic
                             and folk remedies to survive the winter, and a young woman tries to get a young man to love
-                            her.</p>
-                        <img id="c" onclick="myFunction1()" class="row1_imgs" src="comeandsee.jpeg">
+                            her.</p> -->
+                        <!-- <img id="c" onclick="myFunction1()" class="row1_imgs" src="comeandsee.jpeg">
                         <p onclick="myFunction2()" id="p1">
                             The invasion of a village in Byelorussia by German forces sends young Florya (Aleksey
                             Kravchenko) into the forest to join the weary Resistance fighters, against his family's
@@ -72,7 +72,29 @@
                         <img class="row1_imgs" src="november.jpeg" onclick="()">
                         <img class="row1_imgs" src="november.jpeg" onclick="()">
                     </div>
-                </div>
+                </div> --> 
+                                
+                <! –– First row -->
+                    <div class="second_row">
+                        <h1>Originals</h1>
+                        <div class="row2_posters">
+                            <img onclick="myFunction()" id="ab" class="row1_imgs" src="november.jpeg">
+                            <p onclick="myFunction2()" id="p">In a Medieval Estonian village, a group of peasants use magic
+                                and folk remedies to survive the winter, and a young woman tries to get a young man to love
+                                her.</p>
+                                <img id="c" onclick="myFunction1()" class="row1_imgs" src="comeandsee.jpeg">
+                                <p onclick="myFunction2()" id="p1">
+                                    The invasion of a village in Byelorussia by German forces sends young Florya (Aleksey
+                                    Kravchenko) into the forest to join the weary Resistance fighters, against his family's
+                                    wishes. There he meets a girl, Glasha (Olga Mironova), who accompanies him back to his village. </p>
+                                    <!--  <button style="align-content: center;"
+                                        onclick="location.href='https://google.com';" target="_blank">Test</p> -->
+                            <img class="row1_imgs" src="comeandsee.jpeg" onclick="()">
+                            <img class="row1_imgs" src="november.jpeg" onclick="()">
+                            <img class="row1_imgs" src="november.jpeg" onclick="()">
+                        </div>
+                    </div>
+
                 <! –– Second row -->
                     <div class="second_row">
                         <h1>Coming Soon</h1>
